@@ -258,11 +258,11 @@ hr {
 /* Services Section */
 #services {
 	padding: 140px 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/services-bg.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mobile-services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
-@media (min-width:768px) {
+@media (max-width:768px) {
 	#services {
     	padding: 140px 0;
     	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mobile-services-bg.jpg);
