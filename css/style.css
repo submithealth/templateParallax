@@ -162,7 +162,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/intro-bg.jpg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -259,7 +259,7 @@ hr {
 /* Services Section */
 #services {
 	padding: 140px 0;
-	background: url(../img/services-bg.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
