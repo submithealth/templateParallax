@@ -201,7 +201,7 @@ hr {
 }
 .btn-default {
 	color: #f6f6f6;
-	background: #cf5022;
+	background: ##2FAFAF;
 	border: 0;
 	padding: 12px 24px;
 	margin: 0 8px;
@@ -259,7 +259,7 @@ hr {
 /* Services Section */
 #services {
 	padding: 140px 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/services-bg.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -309,13 +309,13 @@ ol.type li a {
 }
 ol.type li a.active {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid ##2FAFAF;
+	background: ##2FAFAF;
 }
 ol.type li a:hover {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid ##2FAFAF;
+	background: ##2FAFAF;
 }
 .isotope-item {
 	z-index: 2
@@ -520,7 +520,7 @@ label {
 	box-shadow: transparent;
 }
 #contact .btn-default {
-	background: #cf5022;
+	background: ##2FAFAF;
 	border: 0;
 	border-radius: 4px;
 	padding: 10px 20px;
@@ -552,7 +552,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact .social i.fa {
 	font-size: 24px;
 	padding-top: 8px;
-	color: #cf5022;
+	color: ##2FAFAF;
 	border-radius: 4px;
 	transition: all 0.3s;
 }
