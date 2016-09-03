@@ -262,6 +262,15 @@ hr {
 	background-size: cover;
 	background-attachment: fixed;
 }
+@media (min-width:768px) {
+	#services {
+    	padding: 140px 0;
+    	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mobile-services-bg.jpg);
+    	background-size: cover;
+    	background-attachment: fixed;
+	}
+}
+
 #services .service {
 	padding: 20px 10px;
 }
