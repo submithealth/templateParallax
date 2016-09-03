@@ -37,11 +37,11 @@ p {
 	font-size: 14px;
 }
 a {
-	color: #754747;
+	color: #2FAFAF;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #F4D03F;
+	color: #2CA5A5;
 }
 ul, ol {
 	list-style: none;
@@ -285,7 +285,7 @@ hr {
 	transition: all 0.5s;
 }
 /* Gallery Section */
-#works {
+#gallery {
 	padding: 120px 0;
 	background: #f6f6f6;
 }
@@ -407,7 +407,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#works i.fa {
+#gallery i.fa {
 	font-size: 20px;
 	padding: 5px;
 	color: #F4D03F;
