@@ -5,10 +5,10 @@ function main() {
    'use strict';
 
 	// Hide .navbar first
-	$(".navbar").hide();
+	//$(".navbar").hide();
 	
 	// Fade in .navbar
-	$(function () {
+	/*$(function () {
 		$(window).scroll(function () {
             // set distance user needs to scroll before we fadeIn navbar
 			if ($(this).scrollTop() > 200) {
@@ -19,7 +19,7 @@ function main() {
 		});
 
 	
-	});
+	});*/
 	
 	// Preloader */
 	  	$(window).load(function() {
