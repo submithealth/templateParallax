@@ -97,7 +97,33 @@ hr {
 	margin-bottom: 30px;
 	border: 0;
 }
+
 /* Navigation */
+nav .navbar-toggle {margin: 13px 15px 13px 0;}
+nav a {
+	font-size: 18px;
+	padding-bottom: 20px !important;
+	padding-top: 20px !important;
+	transition: all 0.3s ease !important;
+	}
+
+nav.navbar.shrink {
+	min-height: 35px;
+}
+nav.navbar.shrink .navbar-brand {
+	font-size: 20px;
+}
+nav.navbar.shrink a {
+	font-size: 14px;
+	padding-bottom: 15px !important;
+	padding-top: 15px !important;
+}
+
+nav.navbar.shrink .navbar-toggle {
+	margin: 8px 15px 8px 0;
+	padding: 4px 5px;
+}
+
 .navbar-custom {
 	padding: 0;
 	border-bottom: 0;
@@ -106,7 +132,8 @@ hr {
 	text-transform: uppercase;
 }
 .navbar-custom .navbar-brand {
-	font-weight: 600;
+	font-weight: bold;
+	font-size: 22px;
 }
 .navbar-custom .navbar-brand i.fa {
 	color: #2FAFAF;
@@ -154,14 +181,24 @@ hr {
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
+
+.navbar-custom-sub {
+	padding: 60px 0 0 0;
+	border-bottom: 0;
+	letter-spacing: 1px;
+	background: #f6f6f6;
+	margin-bottom: 0px;
+}
+
 /* Home Section */
 #intro {
 	display: table;
 	width: 100%;
+	max-height: 495px;
 	height: auto;
 	padding: 100px 0;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/intro-bg.jpg) no-repeat center center fixed;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/about.jpg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -173,10 +210,11 @@ hr {
 	vertical-align: middle;
 }
 #intro .intro-body H1 {
-	font-size: 76px;
+	font-size: 48px;
 	font-weight: 700;
-	color: rgba(255,255,255,0.8);
-	text-transform: uppercase;
+}
+#intro .intro-body p {
+	font-size: 20px;
 }
 #intro .intro-body .brand-heading {
 	color: #2FAFAF;

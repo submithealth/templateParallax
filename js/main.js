@@ -4,25 +4,17 @@ function main() {
 (function () {
    'use strict';
 
-	// Hide .navbar first
-	$(".navbar").hide();
-	
-	// Fade in .navbar
-	$(function () {
-		$(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-			if ($(this).scrollTop() > 200) {
-				$('.navbar').fadeIn();
-			} else {
-				$('.navbar').fadeOut();
-			}
-		});
-
-	
+	// shrinking navbar
+	$(window).scroll(function() {
+		if ($(document).scrollTop() > 50) {
+			$('nav').addClass('shrink');
+		} else {
+			$('nav').removeClass('shrink');
+		}
 	});
 	
 	// Preloader */
-	  	$(window).load(function() {
+  	$(window).load(function() {
 
    	// will first fade out the loading animation 
     	$("#status").fadeOut("slow"); 
